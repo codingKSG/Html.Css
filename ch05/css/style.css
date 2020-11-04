@@ -1,0 +1,11 @@
+/*url형식으로 불러오기*/
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+
+/* '*' 전역 지정 */
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
