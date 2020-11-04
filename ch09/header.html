@@ -26,10 +26,15 @@
             ul{
                 display: flex;
                 justify-content: space-around;
+                flex-wrap: wrap; 
+                /* 화면이 줄어들면 블럭의 크기는 고정, 빈 공간은 축소,
+                화면 크기보다 블럭들의 크기가 초과하면 다음 줄로 내림*/
             }
 
             li{
                 list-style-type: none;
+                width: 300px;
+                text-align: center;
             }
 
             nav a{
@@ -54,7 +59,7 @@
                 position:absolute;
                 display:none;
             }
-            .submenu > a:hover .dropdown{
+            .submenu > a:hover + .dropdown{
                 display: block;
             }
         </style>
