@@ -1,0 +1,25 @@
+footer{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer__menu{
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer__menu div{
+    margin: 0 7px;
+}
+.footer__menu div a{
+    color: #053250;
+    text-decoration: none;
+}
+.footer__nametag{
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(190, 190, 190);
+}
