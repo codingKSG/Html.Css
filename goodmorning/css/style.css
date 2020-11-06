@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+.header{
+    display: flex;
+    padding: 30px 10px 30px 10px;
+    justify-content: space-between;
+}
+.header .header__mymenu{
+    display: flex;
+}
+.header__mymenu div i {
+    margin-right: 25px;
+}
+.header .header__l-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.header .header__s-title{
+    font-size: 13px;
+    color: rgb(80, 80, 80);
+}
+.header .header__mymenu{
+    display: flex;
+    align-items: center;
+}
+.header .header__mymenu .mymenu__icon .material-icons{
+    color: rgb(80, 80, 80);
+}
+main{
+    padding: 40px 10px 40px 10px;
+}
+.section__box{
+    position: relative;
+}
+.section__box .box__img{
+    height: 300px;
+    background-image: url(/htmlwork/goodmorning/images/main.jpg);
+    background-size: cover;
+    background-position: -100%; /*box 내에 있는 배경 올리거나 내릴 수 있다.*/
+    border-radius: 25px;
+}
+.box__img{
+    display: flex;
+    justify-content: flex-end;
+}
+.icon__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 20px 20px 0px 0px;
+}
+.img__icon i{
+    color: red;
+}
+.section__rcmd{
+    padding: 10px 10px 10px 10px;
+}
+.section__rcmd .rcmd__main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.rcmd__main .main__l-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 0px 25px 0px;
+}
+.main__s-title{
+    color: rgb(141, 137, 137);
+}
+.section__rcmd .rcmd__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    grid-gap: 10px;
+}
+.rcmd__list .list__sec .sec__img img{
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+}
+.box__oatmeal{
+    position: relative;
+    bottom: 100px;
+    margin: 0 auto;
+    width: 70%;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0px 10px 0px 10px;
+    box-shadow: black 0px 0px 10px 0px;
+}
+.box__l-title{
+    padding: 10px 0px 0px 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.box__s-title{
+    padding: 10px 0px 0px 10px;
+    font-size: 15px;
+}
+.line{
+    margin: 10px 0px 10px 0px;
+}
+.box__tag{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tag__box{
+    display: flex;
+}
+.box__font{
+    margin-right: 5px;
+    color: rgb(141, 137, 137);
+    font-weight: 600;
+}
+.box__icon{
+    color: rgb(161, 161, 161);
+    font-weight: 600;
+}
+.sec__img{
+    height: 100px;
+    background-image: url(/htmlwork/goodmorning/images/sub.jpg);
+    background-position: -50%;
+    background-size: cover;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+}
+.sec__l-title{
+    font-weight: 600;
+    font-size: 14px;
+}
+.sec__s-title{
+    font-size: 12px;
+}
